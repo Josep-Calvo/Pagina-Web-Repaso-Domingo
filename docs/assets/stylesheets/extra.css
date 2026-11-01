@@ -1,0 +1,23 @@
+:root {
+    --md-primary-fg-color: #172554;
+    --md-accent-fg-color: #06b6d4;
+}
+
+.md-header {
+    background: linear-gradient(90deg, #0f172a, #172554);
+}
+
+.md-typeset h1 {
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.md-typeset .grid.cards > ul > li {
+    border-radius: 14px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}

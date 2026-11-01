@@ -1,0 +1,20 @@
+/.*
+/.cache/
+/.config/
+/.local/
+/.snapshots/
+/snap/
+!/.gitignore
+!/ejercicio1.txt
+!/ejercicio1
+!/repaso_git
+!/scripts/
+!/2-de-ASIX/
+
+# MkDocs
+site/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
